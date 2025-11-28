@@ -5,8 +5,12 @@ import { MdLocalShipping } from "react-icons/md";
 import { MdGavel } from "react-icons/md";
 import { LuClipboardPen } from "react-icons/lu";
 import SpotlightCard from "./common/SpotlightCard";
+import { useNavigate } from "react-router";
 
 export function IntroductionContent() {
+    const navigate = useNavigate();
+    const distribuitionButton = (<button className="btn bg-(--color-custom-teal) border-0 text-white" onClick={()=>navigate("/catalog")}>Ver catálogo</button>)
+
     return(<>
         <div className="absolute h-[30dvh] w-[40dvw] right-0 bg-(--color-secondary) z-49 rounded-bl-[100%]"></div>
         <div className="absolute h-[20dvh] w-[70dvw] -top-10 right-0 bg-(--color-primary) z-50 rounded-bl-[100%]"></div>
@@ -29,10 +33,10 @@ export function IntroductionContent() {
                 </div>
             </div>
             <div className="flex justify-between px-25 flex-wrap">
-                <SpotlightCard spotlightColor="rgba(82, 184, 182, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-teal)!"><PresentationCard icon={<MdLocalShipping  color="var(--color-custom-teal)" size={50} />} title={"Distribuição"} content={"Alimentar, Horeca, Limpeza e Tabacaria com eficiência e pontualidade."} key={"Distribuição"} /></SpotlightCard>
+                <SpotlightCard spotlightColor="rgba(82, 184, 182, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-teal)!"><PresentationCard icon={<MdLocalShipping  color="var(--color-custom-teal)" size={50} />} title={"Distribuição"} content={"Alimentar, Horeca, Limpeza e Tabacaria com eficiência e pontualidade."} key={"Distribuição"} button={distribuitionButton} /></SpotlightCard>
                 <SpotlightCard spotlightColor="rgba(166, 195, 14, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-lime)!"><PresentationCard icon={<GiVacuumCleaner color="var(--color-custom-lime)" size={50} />} title={"Serviços de Limpeza"} content={"Soluções de limpeza profissionais adaptadas às suas necessidades."} key={"Serviços de Limpeza"} /></SpotlightCard>
-                <SpotlightCard spotlightColor="rgba(225, 61, 64, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-red)!"><PresentationCard icon={<LuClipboardPen color="var(--color-custom-red)" size={50} />} title={"Auditoria de HACCP"} content={"Garantimos a segurança alimentar do seu estabelecimento."} key={"Auditoria de HACCP"} /></SpotlightCard>
-                <SpotlightCard spotlightColor="rgba(116, 75, 151, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-purple)!"><PresentationCard icon={<MdGavel color="var(--color-custom-purple)" size={50} />} title={"Solicitadoria"} content={"Aconselhamento Jurídico-Financeiro de confiança."} key={"Solicitadoria"} /></SpotlightCard>
+                <SpotlightCard spotlightColor="rgba(116, 75, 151, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-purple)!"><PresentationCard icon={<LuClipboardPen color="var(--color-custom-purple)" size={50} />} title={"Auditoria de HACCP"} content={"Garantimos a segurança alimentar do seu estabelecimento."} key={"Auditoria de HACCP"} /></SpotlightCard>
+                <SpotlightCard spotlightColor="rgba(225, 61, 64, 0.4)" className="w-[20%] min-w-50 bg-white p-5! border-(--color-custom-red)!"><PresentationCard icon={<MdGavel color="var(--color-custom-red)" size={50} />} title={"Solicitadoria"} content={"Aconselhamento Jurídico-Financeiro de confiança."} key={"Solicitadoria"} /></SpotlightCard>
             </div>
         </div>
     </>)

@@ -1,22 +1,24 @@
 export const PresentationCard = (
-    { icon, title, content }: {
+    { icon, title, content, button }: {
         icon: React.ReactNode;
         title: string;
         content: string;
+        button?: React.ReactNode
     }
 ) => {
 
     return(
-        <div className="card bg-none border-0 text-center">
+        <div className="card bg-none border-0 text-center items-center">
             <figure>
                 {icon}
             </figure>
-            <div className="card-body">
+            <div className="card-body p-0">
                 <h2 className="card-title justify-center">{title}</h2>
                 <p>{content}</p>
-                {/* <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-                </div> */}
+                {button &&
+                <div className="card-actions justify-center">
+                    {button}
+                </div>}
             </div>
         </div>
     )
