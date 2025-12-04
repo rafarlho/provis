@@ -1,10 +1,10 @@
-import PresentationCard from "./common/PresentationCard";
-import RotatingText from "./common/RotatingText"
+import PresentationCard from "../../components/common/PresentationCard";
+import RotatingText from "../../components/common/RotatingText"
 import { GiVacuumCleaner } from "react-icons/gi";
 import { MdLocalShipping } from "react-icons/md";
 import { MdGavel } from "react-icons/md";
 import { LuClipboardPen } from "react-icons/lu";
-import SpotlightCard from "./common/SpotlightCard";
+import SpotlightCard from "../../components/common/SpotlightCard";
 import { useNavigate } from "react-router";
 import { useMediaQuery } from 'react-responsive';
 import { useEffect, useState } from "react";
@@ -13,38 +13,38 @@ export function IntroductionContent() {
     const navigate = useNavigate();
 
     const services = [
-    {
-        id: 1,
-        title: "Distribuição",
-        content: "Alimentar, Horeca, Limpeza e Tabacaria com eficiência e pontualidade.",
-        icon: <MdLocalShipping color="var(--color-custom-teal)" size={50} />,
-        borderColor: "border-(--color-custom-teal)!",
-        button: () => (<button className="btn bg-(--color-custom-teal) border-0 text-white" onClick={()=>navigate("/catalog")}>Ver catálogo</button>)
-    },
-    {
-        id: 2,
-        title: "Serviços de Limpeza",
-        content: "Soluções de limpeza profissionais adaptadas às suas necessidades.",
-        icon: <GiVacuumCleaner color="var(--color-custom-lime)" size={50} />,
-        borderColor: "border-(--color-custom-lime)!",
-        button: null
-    },
-    {
-        id: 3,
-        title: "Auditoria de HACCP",
-        content: "Garantimos a segurança alimentar do seu estabelecimento.",
-        icon: <LuClipboardPen color="var(--color-custom-purple)" size={50} />,
-        borderColor: "border-(--color-custom-purple)!",
-        button: null
-    },
-    {
-        id: 4,
-        title: "Solicitadoria",
-        content: "Aconselhamento Jurídico-Financeiro de confiança.",
-        icon: <MdGavel color="var(--color-custom-red)" size={50} />,
-        borderColor: "border-(--color-custom-red)!",
-        button: null
-    }
+        {
+            id: 1,
+            title: "Distribuição",
+            content: "Alimentar, Horeca, Limpeza e Tabacaria com eficiência e pontualidade.",
+            icon: <MdLocalShipping color="var(--color-custom-teal)" size={50} />,
+            borderColor: "border-(--color-custom-teal)!",
+            button: () => (<button className="btn bg-(--color-custom-teal) border-0 text-white" onClick={()=>navigate("/catalog")}>Ver catálogo</button>)
+        },
+        {
+            id: 2,
+            title: "Serviços de Limpeza",
+            content: "Soluções de limpeza profissionais adaptadas às suas necessidades.",
+            icon: <GiVacuumCleaner color="var(--color-custom-lime)" size={50} />,
+            borderColor: "border-(--color-custom-lime)!",
+            button: null
+        },
+        {
+            id: 3,
+            title: "Auditoria de HACCP",
+            content: "Garantimos a segurança alimentar do seu estabelecimento.",
+            icon: <LuClipboardPen color="var(--color-custom-purple)" size={50} />,
+            borderColor: "border-(--color-custom-purple)!",
+            button: null
+        },
+        {
+            id: 4,
+            title: "Solicitadoria",
+            content: "Aconselhamento Jurídico-Financeiro de confiança.",
+            icon: <MdGavel color="var(--color-custom-red)" size={50} />,
+            borderColor: "border-(--color-custom-red)!",
+            button: null
+        }
     ]
 
     const isSmallScreen = useMediaQuery({ maxWidth: 1023 })

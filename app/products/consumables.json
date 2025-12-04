@@ -1,0 +1,134 @@
+{
+    "paper_and_napkins": [
+        {
+            "item": "Papel Tissue ZigZag",
+            "quantity": "3000 Folhas",
+            "price": 14.30,
+            "vat": "23%"
+        },
+        {
+            "item": "Papel Tissue ZigZag Joker",
+            "quantity": "2800 Folhas",
+            "price": 13.79,
+            "vat": "23%"
+        },
+        {
+            "item": "Papel Higienico Jumbo 120m",
+            "quantity": "12 rolos",
+            "price": 10.90,
+            "vat": "23%"
+        },
+        {
+            "item": "Guardanapos Pastelaria 17x17",
+            "quantity": "1000 folhas",
+            "price": 1.95,
+            "vat": "23%"
+        },
+        {
+            "item": "Guardanapos Sistema L",
+            "quantity": "6000 folhas",
+            "price": 11.75,
+            "vat": "23%"
+        },
+        {
+            "item": "Guardanapos de mesa simples",
+            "quantity": "100 folhas",
+            "price": 0.90,
+            "vat": "23%"
+        }
+        ],
+        "garbage_bags": [
+        {
+            "item": "30L",
+            "quantity": "20 sacos",
+            "price": 0.59,
+            "vat": "23%"
+        },
+        {
+            "item": "50L",
+            "quantity": "10 sacos",
+            "price": 0.59,
+            "vat": "23%"
+        },
+        {
+            "item": "120L",
+            "quantity": "10 sacos",
+            "price": 0.89,
+            "vat": "23%"
+        }
+        ],
+        "disposables_and_packaging": [
+        {
+            "item": "Sacos Papel Take Away TK1",
+            "quantity": "1000 uni",
+            "price": 10.99,
+            "vat": "23%"
+        },
+        {
+            "item": "Sacos Papel Take Away TK7",
+            "quantity": "1000 uni",
+            "price": 12.99,
+            "vat": "23%"
+        },
+        {
+            "item": "Sacos Papel Take Away Tk11",
+            "quantity": "1000 uni",
+            "price": 14.99,
+            "vat": "23%"
+        },
+        {
+            "item": "Palhas Coloridas Embaladas",
+            "quantity": "500 uni",
+            "price": 7.40,
+            "vat": "23%"
+        },
+        {
+            "item": "Copo Cartão Café 90ml",
+            "quantity": "50 copos",
+            "price": 0.99,
+            "vat": "23%"
+        },
+        {
+            "item": "Copo Cartão 200ml",
+            "quantity": "50 copos",
+            "price": 1.99,
+            "vat": "23%"
+        },
+        {
+            "item": "Luvas Polietileno (Palhaço)",
+            "quantity": "100 luvas",
+            "price": 0.69,
+            "vat": "23%"
+        },
+        {
+            "item": "Luvas Latex",
+            "quantity": "100 luvas",
+            "price": 3.49,
+            "vat": "23%"
+        },
+        {
+            "item": "Luvas Nitrilo eco (azul)",
+            "quantity": "100 luvas",
+            "price": 3.49,
+            "vat": "23%"
+        },
+        {
+            "item": "Luvas Alimentares (pretas)",
+            "quantity": "100 luvas",
+            "price": 4.79,
+            "vat": "23%"
+        },
+        {
+            "item": "Caixa p/ Bolos Cartão N°0 (13X11.5X5,5)CM",
+            "quantity": "85 uni",
+            "price": 10.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Caixa p/ Bolos Cartão Nº3 (18,5X16X7,5)CM",
+            "quantity": "50 uni",
+            "price": 10.50,
+            "vat": "23%"
+        }
+    ]
+}

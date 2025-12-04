@@ -1,13 +1,18 @@
+import { IntroductionContent } from "~/pages/LandingPage/IntroductionContent";
 import type { Route } from "../+types/root";
-import { LandingPage } from "../pages/LandingPage";
+import { Footer } from "~/components/common/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Provis Global" },
-    { name: "description", content: "Welcome to Provis Global!" },
   ];
 }
 
 export default function Home() {
-  return <LandingPage />;
+  return (
+      <main className="flex flex-col h-full w-full overflow-auto">
+        <IntroductionContent/>
+        <Footer/>
+      </main>
+    )
 }

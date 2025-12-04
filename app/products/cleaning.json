@@ -1,0 +1,76 @@
+{
+    "cleaning_products": [
+        {
+            "item": "Lava Tudo",
+            "quantity": "5L",
+            "price": 4.89,
+            "vat": "23%"
+        },
+        {
+            "item": "Lava Tudo Neutro Alimentar",
+            "quantity": "5L",
+            "price": 8.49,
+            "vat": "23%"
+        },
+        {
+            "item": "Lava Tudo Amoniacal",
+            "quantity": "5L",
+            "price": 5.79,
+            "vat": "23%"
+        },
+        {
+            "item": "Detergente Multiusos Primavera",
+            "quantity": "5L",
+            "price": 3.85,
+            "vat": "23%"
+        },
+        {
+            "item": "Detergente Lava Louça Manual",
+            "quantity": "5L",
+            "price": 4.79,
+            "vat": "23%"
+        },
+        {
+            "item": "Detergente Louça Máquina Auto (mistolin)",
+            "quantity": "10L",
+            "price": 17.49,
+            "vat": "23%"
+        },
+        {
+            "item": "Sabonete Líquido",
+            "quantity": "5L",
+            "price": 4.95,
+            "vat": "23%"
+        },
+        {
+            "item": "Limpa Vidros",
+            "quantity": "5L",
+            "price": 6.45,
+            "vat": "23%"
+        },
+        {
+            "item": "Limpa Vidros Spray",
+            "quantity": "750ml",
+            "price": 1.32,
+            "vat": "23%"
+        },
+        {
+            "item": "Gel Desinfetante Cloro",
+            "quantity": "5L",
+            "price": 5.90,
+            "vat": "23%"
+        },
+        {
+            "item": "Lixívia Gel Ltx",
+            "quantity": "5L",
+            "price": 6.70,
+            "vat": "23%"
+        },
+        {
+            "item": "Lixívia Tradicional",
+            "quantity": "5L",
+            "price": 1.50,
+            "vat": "23%"
+        }
+    ]
+}

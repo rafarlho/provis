@@ -1,0 +1,227 @@
+{
+    "lighters": [
+        {
+            "item": "Proof Pedra",
+            "box_quantity": 50,
+            "unit_price": 0.23,
+            "box_price": 11.70,
+            "vat": "23%"
+        },
+        {
+            "item": "Proof Elétrico",
+            "box_quantity": 50,
+            "unit_price": 0.27,
+            "box_price": 13.70,
+            "vat": "23%"
+        },
+        {
+            "item": "Mini Bic",
+            "box_quantity": 50,
+            "unit_price": 0.58,
+            "box_price": 28.95,
+            "vat": "23%"
+        },
+        {
+            "item": "Maxi Bic",
+            "box_quantity": 50,
+            "unit_price": 0.68,
+            "box_price": 33.95,
+            "vat": "23%"
+        },
+        {
+            "item": "Clipper Mini",
+            "box_quantity": 48,
+            "unit_price": 0.35,
+            "box_price": 16.80,
+            "vat": "23%"
+        },
+        {
+            "item": "Clipper",
+            "box_quantity": 48,
+            "unit_price": 0.55,
+            "box_price": 26.40,
+            "vat": "23%"
+        }
+    ],
+    "rolling_papers": [
+        {
+            "item": "Smoking Delux Regular",
+            "box_quantity": 25,
+            "unit_price": 0.39,
+            "box_price": 9.75,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Delux King Size",
+            "box_quantity": 50,
+            "unit_price": 0.39,
+            "box_price": 19.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Delux King Size c/Filtro",
+            "box_quantity": 24,
+            "unit_price": 0.79,
+            "box_price": 18.96,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Brown King Size c/Filtro",
+            "box_quantity": 24,
+            "unit_price": 0.79,
+            "box_price": 18.96,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Brown King Size",
+            "box_quantity": 50,
+            "unit_price": 0.41,
+            "box_price": 20.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Brown Regular",
+            "box_quantity": 50,
+            "unit_price": 0.24,
+            "box_price": 12.00,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Red Regular",
+            "box_quantity": 50,
+            "unit_price": 0.24,
+            "box_price": 12.00,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Blue Regular",
+            "box_quantity": 50,
+            "unit_price": 0.25,
+            "box_price": 12.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Raw Regular",
+            "box_quantity": 50,
+            "unit_price": 0.29,
+            "box_price": 14.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Raw King Size",
+            "box_quantity": 50,
+            "unit_price": 0.34,
+            "box_price": 17.00,
+            "vat": "23%"
+        },
+        {
+            "item": "Raw King Size c/Filtro",
+            "box_quantity": 24,
+            "unit_price": 0.69,
+            "box_price": 16.66,
+            "vat": "23%"
+        },
+        {
+            "item": "Moon King Size c/Filtro",
+            "box_quantity": 24,
+            "unit_price": 0.53,
+            "box_price": 12.72,
+            "vat": "23%"
+        },
+        {
+            "item": "Moon King Size",
+            "box_quantity": 50,
+            "unit_price": 0.29,
+            "box_price": 14.50,
+            "vat": "23%"
+        }
+    ],
+    "filters": [
+        {
+            "item": "Livro Filtros Cartão Raw",
+            "box_quantity": 50,
+            "unit_price": 0.15,
+            "box_price": 7.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Ultra Slim 150 Filtros",
+            "box_quantity": 34,
+            "unit_price": 0.57,
+            "box_price": 19.38,
+            "vat": "23%"
+        },
+        {
+            "item": "Smoking Regular 8mm 100 Filtros",
+            "box_quantity": 25,
+            "unit_price": 0.55,
+            "box_price": 13.75,
+            "vat": "23%"
+        },
+        {
+            "item": "Sphere Slim 6mm 120 Filtro",
+            "box_quantity": 34,
+            "unit_price": 0.49,
+            "box_price": 16.66,
+            "vat": "23%"
+        },
+        {
+            "item": "Sphere Bio Slim 6mm 200 Filtro",
+            "box_quantity": 30,
+            "unit_price": 0.65,
+            "box_price": 19.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Raw Bio Slim 200 Filtros",
+            "box_quantity": 30,
+            "unit_price": 0.75,
+            "box_price": 22.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Clipper Regular 8mm 100 Filtros",
+            "box_quantity": 30,
+            "unit_price": 0.45,
+            "box_price": 13.50,
+            "vat": "23%"
+        },
+        {
+            "item": "Energy Mentol 100 Filtros",
+            "box_quantity": 10,
+            "unit_price": 0.65,
+            "box_price": 6.50,
+            "vat": "23%"
+        }
+    ],
+    "accessories": [
+        {
+            "item": "Pedra Isqueiro Clipper 9uni",
+            "box_quantity": 24,
+            "unit_price": 0.50,
+            "box_price": 12.00,
+            "vat": "23%"
+        },
+        {
+            "item": "Pedra Isq. Completa Clipper 3 uni",
+            "box_quantity": 12,
+            "unit_price": 0.45,
+            "box_price": 5.40,
+            "vat": "23%"
+        },
+        {
+            "item": "Gás Zippo 100ml",
+            "box_quantity": 1,
+            "unit_price": 1.74,
+            "box_price": 1.74,
+            "vat": "23%"
+        },
+        {
+            "item": "Gás Clipper 300ml",
+            "box_quantity": 1,
+            "unit_price": 1.92,
+            "box_price": 1.92,
+            "vat": "23%"
+        }
+    ]
+}
