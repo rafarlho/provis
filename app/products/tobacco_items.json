@@ -1,227 +1,258 @@
 {
     "lighters": [
         {
-            "item": "Proof Pedra",
-            "box_quantity": 50,
-            "unit_price": 0.23,
-            "box_price": 11.70,
-            "vat": "23%"
+            "Name": "Proof Pedra",
+            "VatRate": 23,
+            "UnitPrice": 0.23,
+            "BoxQuantity": 50,
+            "BoxPrice": 11.70,
+            "QuantityDescription": null
         },
         {
-            "item": "Proof Elétrico",
-            "box_quantity": 50,
-            "unit_price": 0.27,
-            "box_price": 13.70,
-            "vat": "23%"
+            "Name": "Proof Elétrico",
+            "VatRate": 23,
+            "UnitPrice": 0.27,
+            "BoxQuantity": 50,
+            "BoxPrice": 13.70,
+            "QuantityDescription": null
         },
         {
-            "item": "Mini Bic",
-            "box_quantity": 50,
-            "unit_price": 0.58,
-            "box_price": 28.95,
-            "vat": "23%"
+            "Name": "Mini Bic",
+            "VatRate": 23,
+            "UnitPrice": 0.58,
+            "BoxQuantity": 50,
+            "BoxPrice": 28.95,
+            "QuantityDescription": null
         },
         {
-            "item": "Maxi Bic",
-            "box_quantity": 50,
-            "unit_price": 0.68,
-            "box_price": 33.95,
-            "vat": "23%"
+            "Name": "Maxi Bic",
+            "VatRate": 23,
+            "UnitPrice": 0.68,
+            "BoxQuantity": 50,
+            "BoxPrice": 33.95,
+            "QuantityDescription": null
         },
         {
-            "item": "Clipper Mini",
-            "box_quantity": 48,
-            "unit_price": 0.35,
-            "box_price": 16.80,
-            "vat": "23%"
+            "Name": "Clipper Mini",
+            "VatRate": 23,
+            "UnitPrice": 0.35,
+            "BoxQuantity": 48,
+            "BoxPrice": 16.80,
+            "QuantityDescription": null
         },
         {
-            "item": "Clipper",
-            "box_quantity": 48,
-            "unit_price": 0.55,
-            "box_price": 26.40,
-            "vat": "23%"
+            "Name": "Clipper",
+            "VatRate": 23,
+            "UnitPrice": 0.55,
+            "BoxQuantity": 48,
+            "BoxPrice": 26.40,
+            "QuantityDescription": null
         }
     ],
     "rolling_papers": [
         {
-            "item": "Smoking Delux Regular",
-            "box_quantity": 25,
-            "unit_price": 0.39,
-            "box_price": 9.75,
-            "vat": "23%"
+            "Name": "Smoking Delux Regular",
+            "VatRate": 23,
+            "UnitPrice": 0.39,
+            "BoxQuantity": 25,
+            "BoxPrice": 9.75,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Delux King Size",
-            "box_quantity": 50,
-            "unit_price": 0.39,
-            "box_price": 19.50,
-            "vat": "23%"
+            "Name": "Smoking Delux King Size",
+            "VatRate": 23,
+            "UnitPrice": 0.39,
+            "BoxQuantity": 50,
+            "BoxPrice": 19.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Delux King Size c/Filtro",
-            "box_quantity": 24,
-            "unit_price": 0.79,
-            "box_price": 18.96,
-            "vat": "23%"
+            "Name": "Smoking Delux King Size c/Filtro",
+            "VatRate": 23,
+            "UnitPrice": 0.79,
+            "BoxQuantity": 24,
+            "BoxPrice": 18.96,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Brown King Size c/Filtro",
-            "box_quantity": 24,
-            "unit_price": 0.79,
-            "box_price": 18.96,
-            "vat": "23%"
+            "Name": "Smoking Brown King Size c/Filtro",
+            "VatRate": 23,
+            "UnitPrice": 0.79,
+            "BoxQuantity": 24,
+            "BoxPrice": 18.96,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Brown King Size",
-            "box_quantity": 50,
-            "unit_price": 0.41,
-            "box_price": 20.50,
-            "vat": "23%"
+            "Name": "Smoking Brown King Size",
+            "VatRate": 23,
+            "UnitPrice": 0.41,
+            "BoxQuantity": 50,
+            "BoxPrice": 20.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Brown Regular",
-            "box_quantity": 50,
-            "unit_price": 0.24,
-            "box_price": 12.00,
-            "vat": "23%"
+            "Name": "Smoking Brown Regular",
+            "VatRate": 23,
+            "UnitPrice": 0.24,
+            "BoxQuantity": 50,
+            "BoxPrice": 12.00,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Red Regular",
-            "box_quantity": 50,
-            "unit_price": 0.24,
-            "box_price": 12.00,
-            "vat": "23%"
+            "Name": "Smoking Red Regular",
+            "VatRate": 23,
+            "UnitPrice": 0.24,
+            "BoxQuantity": 50,
+            "BoxPrice": 12.00,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Blue Regular",
-            "box_quantity": 50,
-            "unit_price": 0.25,
-            "box_price": 12.50,
-            "vat": "23%"
+            "Name": "Smoking Blue Regular",
+            "VatRate": 23,
+            "UnitPrice": 0.25,
+            "BoxQuantity": 50,
+            "BoxPrice": 12.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Raw Regular",
-            "box_quantity": 50,
-            "unit_price": 0.29,
-            "box_price": 14.50,
-            "vat": "23%"
+            "Name": "Raw Regular",
+            "VatRate": 23,
+            "UnitPrice": 0.29,
+            "BoxQuantity": 50,
+            "BoxPrice": 14.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Raw King Size",
-            "box_quantity": 50,
-            "unit_price": 0.34,
-            "box_price": 17.00,
-            "vat": "23%"
+            "Name": "Raw King Size",
+            "VatRate": 23,
+            "UnitPrice": 0.34,
+            "BoxQuantity": 50,
+            "BoxPrice": 17.00,
+            "QuantityDescription": null
         },
         {
-            "item": "Raw King Size c/Filtro",
-            "box_quantity": 24,
-            "unit_price": 0.69,
-            "box_price": 16.66,
-            "vat": "23%"
+            "Name": "Raw King Size c/Filtro",
+            "VatRate": 23,
+            "UnitPrice": 0.69,
+            "BoxQuantity": 24,
+            "BoxPrice": 16.66,
+            "QuantityDescription": null
         },
         {
-            "item": "Moon King Size c/Filtro",
-            "box_quantity": 24,
-            "unit_price": 0.53,
-            "box_price": 12.72,
-            "vat": "23%"
+            "Name": "Moon King Size c/Filtro",
+            "VatRate": 23,
+            "UnitPrice": 0.53,
+            "BoxQuantity": 24,
+            "BoxPrice": 12.72,
+            "QuantityDescription": null
         },
         {
-            "item": "Moon King Size",
-            "box_quantity": 50,
-            "unit_price": 0.29,
-            "box_price": 14.50,
-            "vat": "23%"
+            "Name": "Moon King Size",
+            "VatRate": 23,
+            "UnitPrice": 0.29,
+            "BoxQuantity": 50,
+            "BoxPrice": 14.50,
+            "QuantityDescription": null
         }
     ],
     "filters": [
         {
-            "item": "Livro Filtros Cartão Raw",
-            "box_quantity": 50,
-            "unit_price": 0.15,
-            "box_price": 7.50,
-            "vat": "23%"
+            "Name": "Livro Filtros Cartão Raw",
+            "VatRate": 23,
+            "UnitPrice": 0.15,
+            "BoxQuantity": 50,
+            "BoxPrice": 7.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Ultra Slim 150 Filtros",
-            "box_quantity": 34,
-            "unit_price": 0.57,
-            "box_price": 19.38,
-            "vat": "23%"
+            "Name": "Smoking Ultra Slim 150 Filtros",
+            "VatRate": 23,
+            "UnitPrice": 0.57,
+            "BoxQuantity": 34,
+            "BoxPrice": 19.38,
+            "QuantityDescription": null
         },
         {
-            "item": "Smoking Regular 8mm 100 Filtros",
-            "box_quantity": 25,
-            "unit_price": 0.55,
-            "box_price": 13.75,
-            "vat": "23%"
+            "Name": "Smoking Regular 8mm 100 Filtros",
+            "VatRate": 23,
+            "UnitPrice": 0.55,
+            "BoxQuantity": 25,
+            "BoxPrice": 13.75,
+            "QuantityDescription": null
         },
         {
-            "item": "Sphere Slim 6mm 120 Filtro",
-            "box_quantity": 34,
-            "unit_price": 0.49,
-            "box_price": 16.66,
-            "vat": "23%"
+            "Name": "Sphere Slim 6mm 120 Filtro",
+            "VatRate": 23,
+            "UnitPrice": 0.49,
+            "BoxQuantity": 34,
+            "BoxPrice": 16.66,
+            "QuantityDescription": null
         },
         {
-            "item": "Sphere Bio Slim 6mm 200 Filtro",
-            "box_quantity": 30,
-            "unit_price": 0.65,
-            "box_price": 19.50,
-            "vat": "23%"
+            "Name": "Sphere Bio Slim 6mm 200 Filtro",
+            "VatRate": 23,
+            "UnitPrice": 0.65,
+            "BoxQuantity": 30,
+            "BoxPrice": 19.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Raw Bio Slim 200 Filtros",
-            "box_quantity": 30,
-            "unit_price": 0.75,
-            "box_price": 22.50,
-            "vat": "23%"
+            "Name": "Raw Bio Slim 200 Filtros",
+            "VatRate": 23,
+            "UnitPrice": 0.75,
+            "BoxQuantity": 30,
+            "BoxPrice": 22.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Clipper Regular 8mm 100 Filtros",
-            "box_quantity": 30,
-            "unit_price": 0.45,
-            "box_price": 13.50,
-            "vat": "23%"
+            "Name": "Clipper Regular 8mm 100 Filtros",
+            "VatRate": 23,
+            "UnitPrice": 0.45,
+            "BoxQuantity": 30,
+            "BoxPrice": 13.50,
+            "QuantityDescription": null
         },
         {
-            "item": "Energy Mentol 100 Filtros",
-            "box_quantity": 10,
-            "unit_price": 0.65,
-            "box_price": 6.50,
-            "vat": "23%"
+            "Name": "Energy Mentol 100 Filtros",
+            "VatRate": 23,
+            "UnitPrice": 0.65,
+            "BoxQuantity": 10,
+            "BoxPrice": 6.50,
+            "QuantityDescription": null
         }
     ],
     "accessories": [
         {
-            "item": "Pedra Isqueiro Clipper 9uni",
-            "box_quantity": 24,
-            "unit_price": 0.50,
-            "box_price": 12.00,
-            "vat": "23%"
+            "Name": "Pedra Isqueiro Clipper 9uni",
+            "VatRate": 23,
+            "UnitPrice": 0.50,
+            "BoxQuantity": 24,
+            "BoxPrice": 12.00,
+            "QuantityDescription": null
         },
         {
-            "item": "Pedra Isq. Completa Clipper 3 uni",
-            "box_quantity": 12,
-            "unit_price": 0.45,
-            "box_price": 5.40,
-            "vat": "23%"
+            "Name": "Pedra Isq. Completa Clipper 3 uni",
+            "VatRate": 23,
+            "UnitPrice": 0.45,
+            "BoxQuantity": 12,
+            "BoxPrice": 5.40,
+            "QuantityDescription": null
         },
         {
-            "item": "Gás Zippo 100ml",
-            "box_quantity": 1,
-            "unit_price": 1.74,
-            "box_price": 1.74,
-            "vat": "23%"
+            "Name": "Gás Zippo 100ml",
+            "VatRate": 23,
+            "UnitPrice": null,
+            "BoxQuantity": 1,
+            "BoxPrice": 1.74,
+            "QuantityDescription": null
         },
         {
-            "item": "Gás Clipper 300ml",
-            "box_quantity": 1,
-            "unit_price": 1.92,
-            "box_price": 1.92,
-            "vat": "23%"
+            "Name": "Gás Clipper 300ml",
+            "VatRate": 23,
+            "UnitPrice": null,
+            "BoxQuantity": 1,
+            "BoxPrice": 1.92,
+            "QuantityDescription": null
         }
     ]
 }

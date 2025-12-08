@@ -1,30 +1,19 @@
 import { useParams } from "react-router";
 import { useEffect } from 'react';
 import { useToolbarTitle } from "~/contexts/ToolbarTitleContext";
+import { CategoryList } from "~/pages/Categories/CategoryList";
+import { categoryNames } from "~/types/ItemType";
 
 export default function CategoryRoute() {
 
-    const { categoryId } = useParams();
-    const { setTitle } = useToolbarTitle();
-    
-    // Mapear IDs para nomes
-    const categoryNames: Record<string, string> = {
-        'confectionery': 'Confeitaria',
-        'snacks': 'Snacks',
-        'drinks': 'Bebidas',
-        'tobacco': 'Tabacaria',
-        'consumables': 'Consumíveis',
-        'cleaning': 'Limpezas'      
-    };
+    const { categoryId } = useParams()
+    const { setTitle } = useToolbarTitle()
     
     useEffect(() => {
         setTitle(categoryNames[categoryId || ''] || 'Categoria');
     }, [categoryId, setTitle]);
 
     return (
-        <div>
-            <h1>Categoria: {categoryNames[categoryId || '']}</h1>
-            
-        </div>
+        <CategoryList categoryName={categoryId??'confectionery'}/>
     );
 }

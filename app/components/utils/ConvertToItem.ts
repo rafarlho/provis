@@ -1,4 +1,4 @@
-import type { BoxItem, PackageItem } from "~/types/ItemModel"
+import type { BoxItem, PackageItem } from "~/types/ItemType"
 
 export const ConvertObjectsToBoxItems = (objects : any[]) => {
     const boxItems = objects.map(object => ({

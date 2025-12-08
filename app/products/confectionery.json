@@ -1,246 +1,280 @@
 {
   "chocolates": [
     {
-      "item": "Kitkat",
-      "box_quantity": 24,
-      "unit_price": 0.49,
-      "box_price": 11.86,
-      "vat": "23%"
+      "Name": "Kitkat",
+      "VatRate": 23,
+      "UnitPrice": 0.49,
+      "BoxQuantity": 24,
+      "BoxPrice": 11.86,
+      "QuantityDescription": null
     },
     {
-      "item": "Mars",
-      "box_quantity": 24,
-      "unit_price": 0.55,
-      "box_price": 13.30,
-      "vat": "23%"
+      "Name": "Mars",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 24,
+      "BoxPrice": 13.30,
+      "QuantityDescription": null
     },
     {
-      "item": "Snickers",
-      "box_quantity": 24,
-      "unit_price": 0.55,
-      "box_price": 13.30,
-      "vat": "23%"
+      "Name": "Snickers",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 24,
+      "BoxPrice": 13.30,
+      "QuantityDescription": null
     },
     {
-      "item": "Twix",
-      "box_quantity": 25,
-      "unit_price": 0.55,
-      "box_price": 13.85,
-      "vat": "23%"
+      "Name": "Twix",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 25,
+      "BoxPrice": 13.85,
+      "QuantityDescription": null
     },
     {
-      "item": "White/Salted",
-      "box_quantity": 48,
-      "unit_price": 0.55,
-      "box_price": 26.59,
-      "vat": "23%"
+      "Name": "White/Salted",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 48,
+      "BoxPrice": 26.59,
+      "QuantityDescription": null
     },
     {
-      "item": "Lion",
-      "box_quantity": 24,
-      "unit_price": 0.55,
-      "box_price": 13.20,
-      "vat": "23%"
+      "Name": "Lion",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 24,
+      "BoxPrice": 13.20,
+      "QuantityDescription": null
     },
     {
-      "item": "Bounty",
-      "box_quantity": 24,
-      "unit_price": 0.60,
-      "box_price": 14.50,
-      "vat": "23%"
+      "Name": "Bounty",
+      "VatRate": 23,
+      "UnitPrice": 0.60,
+      "BoxQuantity": 24,
+      "BoxPrice": 14.50,
+      "QuantityDescription": null
     },
     {
-      "item": "M&M's Amendoim",
-      "box_quantity": 24,
-      "unit_price": 0.60,
-      "box_price": 14.50,
-      "vat": "23%"
+      "Name": "M&M's Amendoim",
+      "VatRate": 23,
+      "UnitPrice": 0.60,
+      "BoxQuantity": 24,
+      "BoxPrice": 14.50,
+      "QuantityDescription": null
     },
     {
-      "item": "Maltesers",
-      "box_quantity": 25,
-      "unit_price": 0.60,
-      "box_price": 15.10,
-      "vat": "23%"
+      "Name": "Maltesers",
+      "VatRate": 23,
+      "UnitPrice": 0.60,
+      "BoxQuantity": 25,
+      "BoxPrice": 15.10,
+      "QuantityDescription": null
     },
     {
-      "item": "Regina Sombrinhas",
-      "box_quantity": 30,
-      "unit_price": 0.48,
-      "box_price": 14.40,
-      "vat": "23%"
+      "Name": "Regina Sombrinhas",
+      "VatRate": 23,
+      "UnitPrice": 0.48,
+      "BoxQuantity": 30,
+      "BoxPrice": 14.40,
+      "QuantityDescription": null
     },
     {
-      "item": "Kinder Bueno",
-      "box_quantity": 30,
-      "unit_price": 0.89,
-      "box_price": 26.70,
-      "vat": "23%"
+      "Name": "Kinder Bueno",
+      "VatRate": 23,
+      "UnitPrice": 0.89,
+      "BoxQuantity": 30,
+      "BoxPrice": 26.70,
+      "QuantityDescription": null
     },
     {
-      "item": "Ovo kinder Chocolate",
-      "box_quantity": 36,
-      "unit_price": 1.05,
-      "box_price": 37.94,
-      "vat": "23%"
+      "Name": "Ovo kinder Chocolate",
+      "VatRate": 23,
+      "UnitPrice": 1.05,
+      "BoxQuantity": 36,
+      "BoxPrice": 37.94,
+      "QuantityDescription": null
     }
   ],
   "candies": [
     {
-      "item": "Chupa Chups Original",
-      "box_quantity": 100,
-      "unit_price": 0.1495,
-      "box_price": 14.95,
-      "vat": "23%"
+      "Name": "Chupa Chups Original",
+      "VatRate": 23,
+      "UnitPrice": 0.1495,
+      "BoxQuantity": 100,
+      "BoxPrice": 14.95,
+      "QuantityDescription": null
     },
     {
-      "item": "Chupa Melody Pops",
-      "box_quantity": 48,
-      "unit_price": 0.41,
-      "box_price": 19.87,
-      "vat": "23%"
+      "Name": "Chupa Melody Pops",
+      "VatRate": 23,
+      "UnitPrice": 0.41,
+      "BoxQuantity": 48,
+      "BoxPrice": 19.87,
+      "QuantityDescription": null
     },
     {
-      "item": "Chupa Chups XXL",
-      "box_quantity": 25,
-      "unit_price": 0.36,
-      "box_price": 8.93,
-      "vat": "23%"
+      "Name": "Chupa Chups XXL",
+      "VatRate": 23,
+      "UnitPrice": 0.36,
+      "BoxQuantity": 25,
+      "BoxPrice": 8.93,
+      "QuantityDescription": null
     },
     {
-      "item": "Chupa Crazy Dip",
-      "box_quantity": 24,
-      "unit_price": 0.33,
-      "box_price": 7.92,
-      "vat": "23%"
+      "Name": "Chupa Crazy Dip",
+      "VatRate": 23,
+      "UnitPrice": 0.33,
+      "BoxQuantity": 24,
+      "BoxPrice": 7.92,
+      "QuantityDescription": null
     },
     {
-      "item": "Pack Chupa Chups + Melody Pops",
-      "box_quantity": "200+17",
-      "unit_price": null,
-      "box_price": 34.99,
-      "vat": "23%"
+      "Name": "Pack Chupa Chups + Melody Pops",
+      "VatRate": 23,
+      "UnitPrice": 34.99,
+      "BoxQuantity": null,
+      "BoxPrice": null,
+      "QuantityDescription": "200+17"
     },
     {
-      "item": "Hall's (Sabores: Original, Mel e Limão, Citrinos, Extra Forte, Morango)",
-      "box_quantity": 20,
-      "unit_price": 0.54,
-      "box_price": 10.80,
-      "vat": "23%"
+      "Name": "Hall's (Sabores: Original, Mel e Limão, Citrinos, Extra Forte, Morango)",
+      "VatRate": 23,
+      "UnitPrice": 0.54,
+      "BoxQuantity": 20,
+      "BoxPrice": 10.80,
+      "QuantityDescription": null
     },
     {
-      "item": "Mentos",
-      "box_quantity": 20,
-      "unit_price": 0.45,
-      "box_price": 9.00,
-      "vat": "23%"
+      "Name": "Mentos",
+      "VatRate": 23,
+      "UnitPrice": 0.45,
+      "BoxQuantity": 20,
+      "BoxPrice": 9.00,
+      "QuantityDescription": null
     },
     {
-      "item": "Pack Mentos Espiga",
-      "box_quantity": 54,
-      "unit_price": 0.50,
-      "box_price": 27.00,
-      "vat": "23%"
+      "Name": "Pack Mentos Espiga",
+      "VatRate": 23,
+      "UnitPrice": 0.50,
+      "BoxQuantity": 54,
+      "BoxPrice": 27.00,
+      "QuantityDescription": null
     },
     {
-      "item": "Pintarolas Tubo",
-      "box_quantity": 20,
-      "unit_price": 0.55,
-      "box_price": 11.00,
-      "vat": "23%"
+      "Name": "Pintarolas Tubo",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 20,
+      "BoxPrice": 11.00,
+      "QuantityDescription": null
     },
     {
-      "item": "Push Pops",
-      "box_quantity": 20,
-      "unit_price": 0.79,
-      "box_price": 15.80,
-      "vat": "23%"
+      "Name": "Push Pops",
+      "VatRate": 23,
+      "UnitPrice": 0.79,
+      "BoxQuantity": 20,
+      "BoxPrice": 15.80,
+      "QuantityDescription": null
     },
     {
-      "item": "Rebuçados Café kg",
-      "box_quantity": 1,
-      "unit_price": null,
-      "box_price": 4.90,
-      "vat": "23%"
+      "Name": "Rebuçados Café kg",
+      "VatRate": 23,
+      "UnitPrice": 4.90,
+      "BoxQuantity": 1,
+      "BoxPrice": null,
+      "QuantityDescription": "1kg"
     },
     {
-      "item": "Rebuçados Fruta kg",
-      "box_quantity": 1,
-      "unit_price": null,
-      "box_price": 4.90,
-      "vat": "23%"
+      "Name": "Rebuçados Fruta kg",
+      "VatRate": 23,
+      "UnitPrice": 4.90,
+      "BoxQuantity": 1,
+      "BoxPrice": null,
+      "QuantityDescription": "1kg"
     }
   ],
   "gums": [
     {
-      "item": "Gomas Fini",
-      "box_quantity": 1,
-      "unit_price": null,
-      "box_price": 0.65,
-      "vat": "23%"
+      "Name": "Gomas Fini",
+      "VatRate": 23,
+      "UnitPrice": 0.65,
+      "BoxQuantity": 1,
+      "BoxPrice": null,
+      "QuantityDescription": null
     },
     {
-      "item": "Gomas Fini Rolls",
-      "box_quantity": 1,
-      "unit_price": null,
-      "box_price": 0.24,
-      "vat": "23%"
+      "Name": "Gomas Fini Rolls",
+      "VatRate": 23,
+      "UnitPrice": 0.24,
+      "BoxQuantity": 1,
+      "BoxPrice": null,
+      "QuantityDescription": null
     },
     {
-      "item": "Fini Klet's Individual",
-      "box_quantity": 200,
-      "unit_price": 0.03,
-      "box_price": 6.70,
-      "vat": "23%"
+      "Name": "Fini Klet's Individual",
+      "VatRate": 23,
+      "UnitPrice": 0.03,
+      "BoxQuantity": 200,
+      "BoxPrice": 6.70,
+      "QuantityDescription": null
     },
     {
-      "item": "Gorila Power Individual",
-      "box_quantity": 100,
-      "unit_price": 0.03,
-      "box_price": 3.44,
-      "vat": "23%"
+      "Name": "Gorila Power Individual",
+      "VatRate": 23,
+      "UnitPrice": 0.03,
+      "BoxQuantity": 100,
+      "BoxPrice": 3.44,
+      "QuantityDescription": null
     },
     {
-      "item": "Gorila Individual",
-      "box_quantity": 100,
-      "unit_price": 0.039,
-      "box_price": 3.94,
-      "vat": "23%"
+      "Name": "Gorila Individual",
+      "VatRate": 23,
+      "UnitPrice": 0.039,
+      "BoxQuantity": 100,
+      "BoxPrice": 3.94,
+      "QuantityDescription": null
     },
     {
-      "item": "Trident Dragea (Sabores: Mentol, Hortelã, F.Vermelhos, Morango, Melancia)",
-      "box_quantity": 24,
-      "unit_price": 0.39,
-      "box_price": 9.46,
-      "vat": "23%"
+      "Name": "Trident Dragea (Sabores: Mentol, Hortelã, F.Vermelhos, Morango, Melancia)",
+      "VatRate": 23,
+      "UnitPrice": 0.39,
+      "BoxQuantity": 24,
+      "BoxPrice": 9.46,
+      "QuantityDescription": null
     },
     {
-      "item": "Trident Senses (Sabores: Hortelã, Melancia, Tropical, F.Vermelhos)",
-      "box_quantity": 12,
-      "unit_price": 0.55,
-      "box_price": 6.60,
-      "vat": "23%"
+      "Name": "Trident Senses (Sabores: Hortelã, Melancia, Tropical, F.Vermelhos)",
+      "VatRate": 23,
+      "UnitPrice": 0.55,
+      "BoxQuantity": 12,
+      "BoxPrice": 6.60,
+      "QuantityDescription": null
     },
     {
-      "item": "Trident 60 min (Sabores: Trident Pêssego e Melancia, Framboesa e Limão)",
-      "box_quantity": 16,
-      "unit_price": 0.59,
-      "box_price": 9.44,
-      "vat": "23%"
+      "Name": "Trident 60 min (Sabores: Trident Pêssego e Melancia, Framboesa e Limão)",
+      "VatRate": 23,
+      "UnitPrice": 0.59,
+      "BoxQuantity": 16,
+      "BoxPrice": 9.44,
+      "QuantityDescription": null
     },
     {
-      "item": "Trident Max Dragea (Sabores: Melancia)",
-      "box_quantity": 16,
-      "unit_price": 0.59,
-      "box_price": 9.44,
-      "vat": "23%"
+      "Name": "Trident Max Dragea (Sabores: Melancia)",
+      "VatRate": 23,
+      "UnitPrice": 0.59,
+      "BoxQuantity": 16,
+      "BoxPrice": 9.44,
+      "QuantityDescription": null
     },
     {
-      "item": "Trident Max Slab (Sabores: Morango e Lima)",
-      "box_quantity": 12,
-      "unit_price": 0.64,
-      "box_price": 7.68,
-      "vat": "23%"
+      "Name": "Trident Max Slab (Sabores: Morango e Lima)",
+      "VatRate": 23,
+      "UnitPrice": 0.64,
+      "BoxQuantity": 12,
+      "BoxPrice": 7.68,
+      "QuantityDescription": null
     }
   ]
 }

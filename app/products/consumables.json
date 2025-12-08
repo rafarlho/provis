@@ -1,134 +1,176 @@
 {
     "paper_and_napkins": [
         {
-            "item": "Papel Tissue ZigZag",
-            "quantity": "3000 Folhas",
-            "price": 14.30,
-            "vat": "23%"
+            "Name": "Papel Tissue ZigZag",
+            "VatRate": 23,
+            "UnitPrice": 14.30,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "3000 Folhas"
         },
         {
-            "item": "Papel Tissue ZigZag Joker",
-            "quantity": "2800 Folhas",
-            "price": 13.79,
-            "vat": "23%"
+            "Name": "Papel Tissue ZigZag Joker",
+            "VatRate": 23,
+            "UnitPrice": 13.79,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "2800 Folhas"
         },
         {
-            "item": "Papel Higienico Jumbo 120m",
-            "quantity": "12 rolos",
-            "price": 10.90,
-            "vat": "23%"
+            "Name": "Papel Higienico Jumbo 120m",
+            "VatRate": 23,
+            "UnitPrice": 10.90,
+            "BoxQuantity": 12,
+            "BoxPrice": null,
+            "QuantityDescription": "rolos"
         },
         {
-            "item": "Guardanapos Pastelaria 17x17",
-            "quantity": "1000 folhas",
-            "price": 1.95,
-            "vat": "23%"
+            "Name": "Guardanapos Pastelaria 17x17",
+            "VatRate": 23,
+            "UnitPrice": 1.95,
+            "BoxQuantity": 1000,
+            "BoxPrice": null,
+            "QuantityDescription": "folhas"
         },
         {
-            "item": "Guardanapos Sistema L",
-            "quantity": "6000 folhas",
-            "price": 11.75,
-            "vat": "23%"
+            "Name": "Guardanapos Sistema L",
+            "VatRate": 23,
+            "UnitPrice": 11.75,
+            "BoxQuantity": 6000,
+            "BoxPrice": null,
+            "QuantityDescription": "folhas"
         },
         {
-            "item": "Guardanapos de mesa simples",
-            "quantity": "100 folhas",
-            "price": 0.90,
-            "vat": "23%"
+            "Name": "Guardanapos de mesa simples",
+            "VatRate": 23,
+            "UnitPrice": 0.90,
+            "BoxQuantity": 100,
+            "BoxPrice": null,
+            "QuantityDescription": "folhas"
         }
         ],
         "garbage_bags": [
         {
-            "item": "30L",
-            "quantity": "20 sacos",
-            "price": 0.59,
-            "vat": "23%"
+            "Name": "30L",
+            "VatRate": 23,
+            "UnitPrice": 0.59,
+            "BoxQuantity": 20,
+            "BoxPrice": null,
+            "QuantityDescription": "sacos"
         },
         {
-            "item": "50L",
-            "quantity": "10 sacos",
-            "price": 0.59,
-            "vat": "23%"
+            "Name": "50L",
+            "VatRate": 23,
+            "UnitPrice": 0.59,
+            "BoxQuantity": 10,
+            "BoxPrice": null,
+            "QuantityDescription": "sacos"
         },
         {
-            "item": "120L",
-            "quantity": "10 sacos",
-            "price": 0.89,
-            "vat": "23%"
+            "Name": "120L",
+            "VatRate": 23,
+            "UnitPrice": 0.89,
+            "BoxQuantity": 10,
+            "BoxPrice": null,
+            "QuantityDescription": "sacos"
         }
         ],
         "disposables_and_packaging": [
         {
-            "item": "Sacos Papel Take Away TK1",
-            "quantity": "1000 uni",
-            "price": 10.99,
-            "vat": "23%"
+            "Name": "Sacos Papel Take Away TK1",
+            "VatRate": 23,
+            "UnitPrice": 10.99,
+            "BoxQuantity": 1000,
+            "BoxPrice": null,
+            "QuantityDescription": "uni"
         },
         {
-            "item": "Sacos Papel Take Away TK7",
-            "quantity": "1000 uni",
-            "price": 12.99,
-            "vat": "23%"
+            "Name": "Sacos Papel Take Away TK7",
+            "VatRate": 23,
+            "UnitPrice": 12.99,
+            "BoxQuantity": 1000,
+            "BoxPrice": null,
+            "QuantityDescription": "uni"
         },
         {
-            "item": "Sacos Papel Take Away Tk11",
-            "quantity": "1000 uni",
-            "price": 14.99,
-            "vat": "23%"
+            "Name": "Sacos Papel Take Away Tk11",
+            "VatRate": 23,
+            "UnitPrice": 14.99,
+            "BoxQuantity": 1000,
+            "BoxPrice": null,
+            "QuantityDescription": "uni"
         },
         {
-            "item": "Palhas Coloridas Embaladas",
-            "quantity": "500 uni",
-            "price": 7.40,
-            "vat": "23%"
+            "Name": "Palhas Coloridas Embaladas",
+            "VatRate": 23,
+            "UnitPrice": 7.40,
+            "BoxQuantity": 500,
+            "BoxPrice": null,
+            "QuantityDescription": "uni"
         },
         {
-            "item": "Copo Cartão Café 90ml",
-            "quantity": "50 copos",
-            "price": 0.99,
-            "vat": "23%"
+            "Name": "Copo Cartão Café 90ml",
+            "VatRate": 23,
+            "UnitPrice": 0.99,
+            "BoxQuantity": 50,
+            "BoxPrice": null,
+            "QuantityDescription": "copos"
         },
         {
-            "item": "Copo Cartão 200ml",
-            "quantity": "50 copos",
-            "price": 1.99,
-            "vat": "23%"
+            "Name": "Copo Cartão 200ml",
+            "VatRate": 23,
+            "UnitPrice": 1.99,
+            "BoxQuantity": 50,
+            "BoxPrice": null,
+            "QuantityDescription": "copos"
         },
         {
-            "item": "Luvas Polietileno (Palhaço)",
-            "quantity": "100 luvas",
-            "price": 0.69,
-            "vat": "23%"
+            "Name": "Luvas Polietileno (Palhaço)",
+            "VatRate": 23,
+            "UnitPrice": 0.69,
+            "BoxQuantity": 100,
+            "BoxPrice": null,
+            "QuantityDescription": "luvas"
         },
         {
-            "item": "Luvas Latex",
-            "quantity": "100 luvas",
-            "price": 3.49,
-            "vat": "23%"
+            "Name": "Luvas Latex",
+            "VatRate": 23,
+            "UnitPrice": 3.49,
+            "BoxQuantity": 100,
+            "BoxPrice": null,
+            "QuantityDescription": "luvas"
         },
         {
-            "item": "Luvas Nitrilo eco (azul)",
-            "quantity": "100 luvas",
-            "price": 3.49,
-            "vat": "23%"
+            "Name": "Luvas Nitrilo eco (azul)",
+            "VatRate": 23,
+            "UnitPrice": 3.49,
+            "BoxQuantity": 100,
+            "BoxPrice": null,
+            "QuantityDescription": "luvas"
         },
         {
-            "item": "Luvas Alimentares (pretas)",
-            "quantity": "100 luvas",
-            "price": 4.79,
-            "vat": "23%"
+            "Name": "Luvas Alimentares (pretas)",
+            "VatRate": 23,
+            "UnitPrice": 4.79,
+            "BoxQuantity": 100,
+            "BoxPrice": null,
+            "QuantityDescription": "luvas"
         },
         {
-            "item": "Caixa p/ Bolos Cartão N°0 (13X11.5X5,5)CM",
-            "quantity": "85 uni",
-            "price": 10.50,
-            "vat": "23%"
+            "Name": "Caixa p/ Bolos Cartão N°0 (13X11.5X5,5)CM",
+            "VatRate": 23,
+            "UnitPrice": 10.50,
+            "BoxQuantity": 85,
+            "BoxPrice": null,
+            "QuantityDescription": "uni"
         },
         {
-            "item": "Caixa p/ Bolos Cartão Nº3 (18,5X16X7,5)CM",
-            "quantity": "50 uni",
-            "price": 10.50,
-            "vat": "23%"
+            "Name": "Caixa p/ Bolos Cartão Nº3 (18,5X16X7,5)CM",
+            "VatRate": 23,
+            "UnitPrice": 10.50,
+            "BoxQuantity": 50,
+            "BoxPrice": null,
+            "QuantityDescription": "uni"
         }
     ]
 }

@@ -1,4 +1,4 @@
-import type { BoxItem, ItemType, PackageItem } from "~/types/ItemModel"
+import type { BoxItem, ItemType, PackageItem } from "~/types/ItemType"
 
 export const SelectionToCartTable = (
     {headers, source, type} : 

@@ -19,7 +19,7 @@ export function IntroductionContent() {
             content: "Alimentar, Horeca, Limpeza e Tabacaria com eficiência e pontualidade.",
             icon: <MdLocalShipping color="var(--color-custom-teal)" size={50} />,
             borderColor: "border-(--color-custom-teal)!",
-            button: () => (<button className="btn bg-(--color-custom-teal) border-0 text-white" onClick={()=>navigate("/catalog")}>Ver catálogo</button>)
+            button: () => (<button className="btn bg-(--color-custom-teal) border-0 text-white" onClick={()=>navigate("/provis")}>Ver catálogo</button>)
         },
         {
             id: 2,

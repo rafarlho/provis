@@ -4,6 +4,8 @@ import { GrCart, GrCatalog, GrFavorite } from "react-icons/gr";
 import type { ReactElement } from "react";
 import { useState } from 'react';
 import { ToolbarTitleContext } from "~/contexts/ToolbarTitleContext";
+import { CartContext } from "~/contexts/CartContext";
+import type { CartItem } from "~/types/CartItemModel";
 export function meta({}: Route.MetaArgs) {
     return [
         { title: "Provis Global" },
@@ -16,6 +18,37 @@ export default function MainAppRoutes() {
 
     const [toolbarTitle, setToolbarTitle] = useState("Provis");
 
+    const [cartItems, setCartItems] = useState<CartItem[]>([]);
+    
+    const addItem = (item: CartItem) => {
+        setCartItems(prev => [...prev, item]);
+    };
+
+    const removeItem = (currentItem: CartItem) => {
+        setCartItems(prev => prev.filter(item => item.Name !== currentItem.Name && item.ItemType === currentItem.ItemType));
+    };
+
+    const isInCart = (currentItem: CartItem) => {
+        return cartItems.filter(item => item.Name === currentItem.Name && item.ItemType == currentItem.ItemType).length ?? 0;
+    };
+
+    const changeQuantity = (currentItem: CartItem, newQuantity: number) => {
+        setCartItems(prev => prev.filter((item: CartItem) => {
+            if(item.Name !== currentItem.Name && item.ItemType === currentItem.ItemType)
+                return {...item, Quantity: newQuantity}
+            return item
+        }));
+    };
+    
+
+    const cartContextValue = {
+        items: cartItems,
+        addItem,
+        removeItem,
+        isInCart,
+        changeQuantity,
+    };
+
     const navigation : {name: string, redirectTo: string, icon: ReactElement}[] = [
         {name: "Catálogo", redirectTo: '/provis', icon: <GrCatalog/>},
         {name: "Favoritos", redirectTo: 'favourites', icon: <GrFavorite/>},
@@ -24,20 +57,21 @@ export default function MainAppRoutes() {
 
     return (
         <ToolbarTitleContext.Provider value={{ title: toolbarTitle, setTitle: setToolbarTitle }}>
+        <CartContext.Provider value={cartContextValue}>
             <div className="absolute h-16 w-[10dvw] right-0 bg-(--color-secondary) z-49 rounded-bl-[100%]"></div>
             <div className="absolute h-10 w-[20dvw] -top-3 right-0 bg-(--color-primary) z-50 rounded-bl-[100%]"></div>    
             <div className="drawer lg:drawer-open">
                 <input id="my-drawer-4" type="checkbox" className="drawer-toggle tex" />
-                <div className="drawer-content flex flex-col">
-                    <nav className="navbar w-full bg-base-300">
+                <div className="drawer-content flex flex-col h-dvh min-h-0">
+                    <nav className="navbar w-full bg-base-300 ">
                         <label htmlFor="my-drawer-4" aria-label="open sidebar" className="btn btn-square btn-ghost">
                             {/* Sidebar toggle icon */}
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor" className="my-1.5 inline-block size-4"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M9 4v16"></path><path d="M14 10l2 2l-2 2"></path></svg>
                         </label>
                         <div className="px-4 text-xl font-bold">{toolbarTitle}</div>
                     </nav>
-                    {/* Page content here */}
-                    <div className="p-4 flex-1 min-h-0">
+                    {/* Page content here - delegate scrolling to the Outlet child */}
+                    <div className="p-4 flex-1 min-h-0 overflow-auto">
                         <Outlet></Outlet>
                     </div>
                 </div>
@@ -65,6 +99,7 @@ export default function MainAppRoutes() {
                     </div>
                 </div>
             </div>
+        </CartContext.Provider>
         </ToolbarTitleContext.Provider>
     );
 }
