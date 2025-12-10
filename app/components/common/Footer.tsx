@@ -5,7 +5,6 @@ export const Footer = () => {
     return (
         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content gap-0 md:gap-2.5 p-5 lg:p-10 ">
         <aside>
-            <img src="logo.png" className="h-10"/>
             <small>© {new Date().getFullYear()} Provis Global, Todos os direitos reservados.</small>
         </aside>
         <nav>

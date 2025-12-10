@@ -8,6 +8,8 @@ import SpotlightCard from "../../components/common/SpotlightCard";
 import { useNavigate } from "react-router";
 import { useMediaQuery } from 'react-responsive';
 import { useEffect, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { GrCatalog } from "react-icons/gr";
 
 export function IntroductionContent() {
     const navigate = useNavigate();
@@ -82,32 +84,45 @@ export function IntroductionContent() {
                                 icon={service.icon}
                                 title={service.title}
                                 content={service.content}
-                                button={service.button ? service.button() : undefined}
+                                button={undefined}
                             />
                         </SpotlightCard>
                     </div>
                 ))}
             </div>
+            <div className="flex flex-col gap-1">
+                <div className="w-full flex justify-center  gap-1">
+                    <button className="w-auto btn  bg-green-600 text-2xl text-white border-0"><FaWhatsapp/>Contacta-nos!</button>
+                </div>
+                <div className="w-full flex justify-center  gap-1">
+                    <button className="w-auto btn bg-(--color-custom-teal) text-2xl border-0 text-white" onClick={()=>navigate("/provis")}><GrCatalog />Ver catálogo</button>
+                </div>
+            </div>
         </>
     );
 
     const GridComponent = (
-        <div className="flex justify-between px-25 flex-wrap">
-            {services.map((service) => (
-                <SpotlightCard
-                    key={service.id}
-                    spotlightColor={service.id === 1 ? 'rgba(82, 184, 182, 0.4)' : service.id === 2 ? 'rgba(166, 195, 14, 0.4)' : service.id === 3 ? 'rgba(116, 75, 151, 0.4)' : 'rgba(225, 61, 64, 0.4)'}
-                    className={`w-[20%] min-w-50 bg-white p-5! ${service.borderColor}`}
-                >
-                    <PresentationCard
-                        icon={service.icon}
-                        title={service.title}
-                        content={service.content}
-                        button={service.button ? service.button() : undefined}
-                    />
-                </SpotlightCard>
-            ))}
-        </div>
+        <>
+            <div className="flex justify-between px-25 flex-wrap">
+                {services.map((service) => (
+                    <SpotlightCard
+                        key={service.id}
+                        spotlightColor={service.id === 1 ? 'rgba(82, 184, 182, 0.4)' : service.id === 2 ? 'rgba(166, 195, 14, 0.4)' : service.id === 3 ? 'rgba(116, 75, 151, 0.4)' : 'rgba(225, 61, 64, 0.4)'}
+                        className={`w-[20%] min-w-50 bg-white p-5! ${service.borderColor}`}
+                    >
+                        <PresentationCard
+                            icon={service.icon}
+                            title={service.title}
+                            content={service.content}
+                            button={service.button ? service.button() : undefined}
+                        />
+                    </SpotlightCard>
+                ))}
+            </div>
+            <div className="absolute bottom-5 right-10">
+                <button className="btn btn-circle bg-green-600 h-20 w-20 text-5xl text-white border-0"><FaWhatsapp/></button>
+            </div>
+        </>
     );
 
     return(<>
