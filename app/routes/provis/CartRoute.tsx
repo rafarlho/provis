@@ -1,16 +1,19 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaMinusCircle, FaPlusCircle, FaTrashAlt } from "react-icons/fa";
 import { MdOutlineSchedule } from "react-icons/md";
 import { useNavigate } from "react-router";
 import { useCart } from "~/contexts/CartContext";
 import { useToolbarTitle } from "~/contexts/ToolbarTitleContext";
+import OrderDialog from "~/pages/Cart/OrderDialog";
 import type { CartItem } from "~/types/CartItemModel";
 
 export default function CartRoute() {
     const { setTitle } = useToolbarTitle()
     const navigate = useNavigate()
     const cartContext = useCart()
-
+    
+    const [isDialogOpen, setIsDialogOpen] = useState(false);
+    
     useEffect(()=> {
         setTitle("Carrinho")
     },[setTitle])
@@ -38,7 +41,7 @@ export default function CartRoute() {
         <div className="h-full flex items-center justify-center flex-col gap-2">
             {cartContext.items.length > 0 ? (<>
                 <div className="flex justify-end w-full">
-                    <button className="btn btn-success"><MdOutlineSchedule /> Encomendar produtos</button>
+                    <button className="btn btn-success" onClick={() => setIsDialogOpen(true)}><MdOutlineSchedule /> Encomendar produtos</button>
                 </div>
                 <div className="overflow-x-auto h-full w-full">
                     <table className="table table-zebra table-pin-rows table-pin-cols">
@@ -83,6 +86,10 @@ export default function CartRoute() {
                         </tbody>
                     </table>
                 </div>
+                <OrderDialog 
+                    isOpen={isDialogOpen} 
+                    onClose={() => setIsDialogOpen(false)} 
+                />
             </>) : 
                 <>
                     <p className="text-xl">Não existem itens no carrinho...</p>
