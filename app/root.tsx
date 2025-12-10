@@ -5,10 +5,12 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useNavigate,
 } from "react-router";
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import { useEffect } from "react";
 
 export const links: Route.LinksFunction = () => [
   { rel: "icon", href: "/icon.png", type: "image/svg+xml" },
@@ -50,6 +52,15 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
   let stack: string | undefined;
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isRouteErrorResponse(error) && error.status === 404) {
+      navigate("/");
+    }
+  }, [error, navigate]);
+
 
   if (isRouteErrorResponse(error)) {
     message = error.status === 404 ? "404" : "Error";

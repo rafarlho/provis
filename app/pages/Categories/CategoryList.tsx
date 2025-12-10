@@ -68,6 +68,7 @@ export const CategoryList = ({categoryName}: {categoryName: string}) => {
                         <h2 className="text-3xl font-bold">{item.Name}</h2>
                         <span className="text-xl">IVA: {item.VatRate}%</span>
                     </div>
+                        {item.QuantityDescription && (<p>Quantidade: <b>{item.QuantityDescription}</b></p>)}
                     <div className="flex w-full flex-col lg:flex-row">
                         <div className="card bg-base-300 rounded-box grid grow place-items-center">
                             <h3 className='text-xl'>Unitário</h3>

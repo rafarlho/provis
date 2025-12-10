@@ -7,9 +7,9 @@ export const ToolbarTitleContext = createContext<ToolbarContextType>({
 });
 
 export const useToolbarTitle = () => {
-    const context = useContext(ToolbarTitleContext);
+    const context = useContext(ToolbarTitleContext)
     if (!context) {
-        throw new Error('useToolbarTitle must be used within ToolbarTitleProvider, please re-evaluate');
+        throw new Error('useToolbarTitle must be used within ToolbarTitleProvider, please re-evaluate')
     }
     return context;
 };
