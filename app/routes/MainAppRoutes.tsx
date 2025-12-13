@@ -76,6 +76,7 @@ export default function MainAppRoutes() {
 
             <div className=" md:hidden flex flex-col h-dvh min-h-0">
                 <nav className="navbar w-full bg-base-300 ">
+                    <img src="/logo.png" className="h-10" width='auto'  onClick={() => navigate('/')}/>
                     <div className="px-4 text-xl font-bold">{toolbarTitle}</div>
                 </nav>
                 <div className="p-4 flex-1 min-h-0 overflow-auto">
@@ -116,9 +117,10 @@ export default function MainAppRoutes() {
                     <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                     <div className="flex min-h-full flex-col items-start bg-base-200 is-drawer-close:w-14 is-drawer-open:w-64">
                         <ul className="menu w-full grow">
-
-                            <img src="/logo.png" height="90%" width='auto' className="mt-1 h-10 mx-auto is-drawer-close:hidden" />
-                            <img src="/icon.png" height="90%" width='auto' className="mt-1 h-10 mx-auto is-drawer-open:hidden" />
+                            <a onClick={() => navigate('/')} className="cursor-pointer">
+                                <img src="/logo.png" height="90%" width='auto' className="mt-1 h-10 mx-auto is-drawer-close:hidden" />
+                                <img src="/icon.png" height="90%" width='auto' className="mt-1 h-10 mx-auto is-drawer-open:hidden" />
+                            </a>
                             <div className="divider m-1"></div>
                             {navigation.map(nav => (
                                 <li className="mt-2">
