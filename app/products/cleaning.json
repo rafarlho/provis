@@ -1,0 +1,100 @@
+{
+    "cleaning_products": [
+        {
+            "Name": "Lava Tudo",
+            "VatRate": 23,
+            "UnitPrice": 4.89,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Lava Tudo Neutro Alimentar",
+            "VatRate": 23,
+            "UnitPrice": 8.49,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Lava Tudo Amoniacal",
+            "VatRate": 23,
+            "UnitPrice": 5.79,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Detergente Multiusos Primavera",
+            "VatRate": 23,
+            "UnitPrice": 3.85,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Detergente Lava Louça Manual",
+            "VatRate": 23,
+            "UnitPrice": 4.79,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Detergente Louça Máquina Auto (mistolin)",
+            "VatRate": 23,
+            "UnitPrice": 17.49,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "10L"
+        },
+        {
+            "Name": "Sabonete Líquido",
+            "VatRate": 23,
+            "UnitPrice": 4.95,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Limpa Vidros",
+            "VatRate": 23,
+            "UnitPrice": 6.45,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Limpa Vidros Spray",
+            "VatRate": 23,
+            "UnitPrice": 1.32,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "750ml"
+        },
+        {
+            "Name": "Gel Desinfetante Cloro",
+            "VatRate": 23,
+            "UnitPrice": 5.90,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Lixívia Gel Ltx",
+            "VatRate": 23,
+            "UnitPrice": 6.70,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        },
+        {
+            "Name": "Lixívia Tradicional",
+            "VatRate": 23,
+            "UnitPrice": 1.50,
+            "BoxQuantity": 1,
+            "BoxPrice": null,
+            "QuantityDescription": "5L"
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "juices_and_sodas": [
+    {
+        "Name": "Compal Vidro (Sabores: Pera, Maçã, Laranja Algarve, Ananás Côco, Manga Laranja, Frutos Vermelhos, Morango)",
+        "VatRate": 13,
+        "UnitPrice": 0.58,
+        "BoxQuantity": 15,
+        "BoxPrice": 8.76,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Santal (Sabores: Laranja, Maracujá, Pêssego, Manga, Laranja, Ananás, Plus Maçã, Plus Pêssego Manga, Active Drink)",
+        "VatRate": 23,
+        "UnitPrice": 0.63,
+        "BoxQuantity": 18,
+        "BoxPrice": 11.34,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "B! (Sabores: Limão, Pêssego)",
+        "VatRate": 23,
+        "UnitPrice": 0.59,
+        "BoxQuantity": 12,
+        "BoxPrice": 7.09,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Jol (Sabores: Tutti Fruti)",
+        "VatRate": 23,
+        "UnitPrice": 0.55,
+        "BoxQuantity": 8,
+        "BoxPrice": 4.40,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Cola-Cola",
+        "VatRate": 23,
+        "UnitPrice": 0.58,
+        "BoxQuantity": 28,
+        "BoxPrice": 16.29,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Cola-Cola Zero",
+        "VatRate": 23,
+        "UnitPrice": 0.58,
+        "BoxQuantity": 28,
+        "BoxPrice": 16.29,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Cola-Cola EU",
+        "VatRate": 23,
+        "UnitPrice": 0.56,
+        "BoxQuantity": 24,
+        "BoxPrice": 13.50,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Guarana Brasil",
+        "VatRate": 23,
+        "UnitPrice": 0.52,
+        "BoxQuantity": 24,
+        "BoxPrice": 12.48,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Sumol lata",
+        "VatRate": 23,
+        "UnitPrice": 0.55,
+        "BoxQuantity": 24,
+        "BoxPrice": 13.20,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "7 Up",
+        "VatRate": 23,
+        "UnitPrice": 0.52,
+        "BoxQuantity": 24,
+        "BoxPrice": 12.49,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Pepsi",
+        "VatRate": 23,
+        "UnitPrice": 0.49,
+        "BoxQuantity": 24,
+        "BoxPrice": 11.85,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Ice Tea (Sabores: Limão)",
+        "VatRate": 23,
+        "UnitPrice": 0.55,
+        "BoxQuantity": 24,
+        "BoxPrice": 13.19,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Fanta",
+        "VatRate": 23,
+        "UnitPrice": 0.58,
+        "BoxQuantity": 28,
+        "BoxPrice": 16.35,
+        "QuantityDescription": null
+    }
+    ],
+    "energy_drinks": [
+    {
+        "Name": "RedBull 250ml",
+        "VatRate": 23,
+        "UnitPrice": 1.04,
+        "BoxQuantity": 24,
+        "BoxPrice": 24.96,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Monster 500ml",
+        "VatRate": 23,
+        "UnitPrice": 1.08,
+        "BoxQuantity": 24,
+        "BoxPrice": 25.96,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Be Power 250ml",
+        "VatRate": 23,
+        "UnitPrice": 0.41,
+        "BoxQuantity": 24,
+        "BoxPrice": 9.90,
+        "QuantityDescription": null
+    }
+    ],
+    "water": [
+    {
+        "Name": "Água s/Gás 0.5cl",
+        "VatRate": 13,
+        "UnitPrice": 0.14,
+        "BoxQuantity": 24,
+        "BoxPrice": 3.36,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Água s/Gás 1.5cl",
+        "VatRate": 13,
+        "UnitPrice": 0.29,
+        "BoxQuantity": 6,
+        "BoxPrice": 1.75,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Água das Pedras Vidro (tp) 25cl",
+        "VatRate": 13,
+        "UnitPrice": 0.44,
+        "BoxQuantity": 24,
+        "BoxPrice": 10.55,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Água das Pedras c/ Sabor Vidro 25cl (Sabores: Natural, Limão, Maracujá, Ananás, F. Vermelhos)",
+        "VatRate": 23,
+        "UnitPrice": 0.47,
+        "BoxQuantity": 24,
+        "BoxPrice": 11.28,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Frise Vidro c/Sabor 25cl",
+        "VatRate": 23,
+        "UnitPrice": 0.47,
+        "BoxQuantity": 24,
+        "BoxPrice": 11.28,
+        "QuantityDescription": null
+    }
+    ],
+    "milk": [
+    {
+        "Name": "Ucal Vidro 330ml",
+        "VatRate": 6,
+        "UnitPrice": 0.58,
+        "BoxQuantity": 24,
+        "BoxPrice": 13.99,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Leite Meio Gordo 1L",
+        "VatRate": 6,
+        "UnitPrice": 0.75,
+        "BoxQuantity": 6,
+        "BoxPrice": 4.50,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Leite Gresso UHT 1L",
+        "VatRate": 6,
+        "UnitPrice": 0.80,
+        "BoxQuantity": 6,
+        "BoxPrice": 4.80,
+        "QuantityDescription": null
+    }
+    ],
+    "beers": [
+    {
+        "Name": "Panaché",
+        "VatRate": 23,
+        "UnitPrice": 0.39,
+        "BoxQuantity": 24,
+        "BoxPrice": 9.36,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Super Bock Mini 20cl (tp)",
+        "VatRate": 23,
+        "UnitPrice": 0.33,
+        "BoxQuantity": 35,
+        "BoxPrice": 12.25,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Super Bock Mini Preta 20cl (tp)",
+        "VatRate": 23,
+        "UnitPrice": 0.47,
+        "BoxQuantity": 24,
+        "BoxPrice": 11.28,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Super Bock 33cl tp",
+        "VatRate": 23,
+        "UnitPrice": 0.59,
+        "BoxQuantity": 24,
+        "BoxPrice": 14.25,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Super Bock 0% 33cl tp",
+        "VatRate": 23,
+        "UnitPrice": 0.65,
+        "BoxQuantity": 24,
+        "BoxPrice": 15.60,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Super Bock Lata 33cl",
+        "VatRate": 23,
+        "UnitPrice": 0.55,
+        "BoxQuantity": 24,
+        "BoxPrice": 13.20,
+        "QuantityDescription": null
+    }
+    ],
+    "wines_and_spirits": [
+    {
+        "Name": "Vinho do Porto Mesão Tawny 75cl",
+        "VatRate": 23,
+        "UnitPrice": null,
+        "BoxQuantity": 1,
+        "BoxPrice": 3.95,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Favaios 75cl",
+        "VatRate": 23,
+        "UnitPrice": null,
+        "BoxQuantity": 1,
+        "BoxPrice": 4.89,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Martini Rosso 1L",
+        "VatRate": 23,
+        "UnitPrice": null,
+        "BoxQuantity": 1,
+        "BoxPrice": 8.49,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Licor Beirão 75cl",
+        "VatRate": 23,
+        "UnitPrice": null,
+        "BoxQuantity": 1,
+        "BoxPrice": 9.89,
+        "QuantityDescription": null
+    }
+    ]
+}

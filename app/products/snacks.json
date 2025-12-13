@@ -1,0 +1,86 @@
+{
+    "chips": [
+    {
+        "Name": "Matotano Pequenas (Sabores: Cebola, Vinagre, BBQ, Picante)",
+        "VatRate": 23,
+        "UnitPrice": 0.75,
+        "BoxQuantity": null,
+        "BoxPrice": null,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Matotano Grandes",
+        "VatRate": 23,
+        "UnitPrice": 1.33,
+        "BoxQuantity": null,
+        "BoxPrice": null,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Cheetos/Doritos Grande",
+        "VatRate": 23,
+        "UnitPrice": 1.69,
+        "BoxQuantity": null,
+        "BoxPrice": null,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Batata Frita Amanhecer 40gr",
+        "VatRate": 23,
+        "UnitPrice": 0.49,
+        "BoxQuantity": null,
+        "BoxPrice": null,
+        "QuantityDescription": "40gr"
+    },
+    {
+        "Name": "Batata Frita Amanhecer xGr",
+        "VatRate": 23,
+        "UnitPrice": 1.04,
+        "BoxQuantity": null,
+        "BoxPrice": null,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Pringles",
+        "VatRate": 23,
+        "UnitPrice": 0.77,
+        "BoxQuantity": 12,
+        "BoxPrice": 9.24,
+        "QuantityDescription": null
+    }
+    ],
+    "bars_and_biscuits": [
+    {
+        "Name": "Barrinha Nacional",
+        "VatRate": 23,
+        "UnitPrice": 0.35,
+        "BoxQuantity": 6,
+        "BoxPrice": 2.10,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Barrinha Nestlé",
+        "VatRate": 23,
+        "UnitPrice": 0.38,
+        "BoxQuantity": 6,
+        "BoxPrice": 2.28,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Barrinha Nestlé Fitness (Sabores: F.Vermelhos, Chocolate, Cacau)",
+        "VatRate": 23,
+        "UnitPrice": 0.38,
+        "BoxQuantity": 6,
+        "BoxPrice": 2.28,
+        "QuantityDescription": null
+    },
+    {
+        "Name": "Bolachas Poker (Sabores: Avelã, Limão, Baunilha)",
+        "VatRate": 23,
+        "UnitPrice": 0.60,
+        "BoxQuantity": 4,
+        "BoxPrice": 2.40,
+        "QuantityDescription": null
+    }
+    ]
+}
