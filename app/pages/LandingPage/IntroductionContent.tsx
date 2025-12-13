@@ -50,21 +50,24 @@ export function IntroductionContent() {
     ]
 
     const isSmallScreen = useMediaQuery({ maxWidth: 1023 })
-    const [activeIndex, setActiveIndex] = useState(1)
+    const [activeIndex, setActiveIndex] = useState(0)
 
     useEffect(() => {
         if (!isSmallScreen) return
 
         const interval = setInterval(() => {
             setActiveIndex((current) => {
-                const nextIndex = current === services.length ? 1 : current + 1
-                window.location.hash = `#item${nextIndex}`
+                const nextIndex = (current + 1) % services.length
+                const element = document.getElementById(`item${services[nextIndex].id}`)
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' })
+                }
                 return nextIndex
             });
         }, 5000)
 
         return () => clearInterval(interval)
-    }, [isSmallScreen]);
+    }, [isSmallScreen, services]);
     
     const CarouselComponent = (
         <>
@@ -91,9 +94,11 @@ export function IntroductionContent() {
                 ))}
             </div>
             <div className="flex flex-col gap-1">
-                <div className="w-full flex justify-center  gap-1">
-                    <button className="w-auto btn  bg-green-600 text-2xl text-white border-0"><FaWhatsapp/>Contacta-nos!</button>
-                </div>
+                <a href="https://api.whatsapp.com/send?phone=351969058981&text=Olá, quero obter mais informações sobre a Provis!" target="_blank">
+                    <div className="w-full flex justify-center  gap-1">
+                        <button className="w-auto btn  bg-green-600 text-2xl text-white border-0"><FaWhatsapp/>Contacta-nos!</button>
+                    </div>
+                </a>
                 <div className="w-full flex justify-center  gap-1">
                     <button className="w-auto btn bg-(--color-custom-teal) text-2xl border-0 text-white" onClick={()=>navigate("/provis")}><GrCatalog />Ver catálogo</button>
                 </div>
@@ -120,7 +125,11 @@ export function IntroductionContent() {
                 ))}
             </div>
             <div className="absolute bottom-5 right-10">
-                <button className="btn btn-circle bg-green-600 h-20 w-20 text-5xl text-white border-0"><FaWhatsapp/></button>
+                <a href="https://api.whatsapp.com/send?phone=351969058981&text=Olá, quero obter mais informações sobre a Provis!" target="_blank">
+                    <button className="btn btn-circle bg-green-600 h-20 w-20 text-5xl text-white border-0">
+                            <FaWhatsapp/>
+                    </button>
+                </a>
             </div>
         </>
     );
@@ -142,7 +151,7 @@ export function IntroductionContent() {
                         staggerDuration={0.025}
                         splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
                         transition={{ type: "spring", damping: 30, stiffness: 400 }}
-                        rotationInterval={2500}
+                        rotationInterval={5000}
                     />
                 </div>
             </div>

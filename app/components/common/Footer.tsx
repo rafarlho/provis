@@ -8,7 +8,7 @@ export const Footer = () => {
             <small>© {new Date().getFullYear()} Provis Global, Todos os direitos reservados.</small>
         </aside>
         <nav>
-            <a className="link link-hover flex gap-1 items-center" href="https://api.whatsapp.com/send?phone=351969058981&text=Olá, quero obter mais informações sobre a Provis!" target="_blanck"><FaWhatsapp /> 969058981</a>
+            <a className="link link-hover flex gap-1 items-center" href="https://api.whatsapp.com/send?phone=351969058981&text=Olá, quero obter mais informações sobre a Provis!" target="_blank"><FaWhatsapp /> 969058981</a>
             {/* <h6 className="footer-title">Services</h6> */}
             {/* <a className="link link-hover">Branding</a>
             <a className="link link-hover">Design</a>
@@ -16,7 +16,7 @@ export const Footer = () => {
             <a className="link link-hover">Advertisement</a> */}
         </nav>
         <nav>
-            <a className="link link-hover flex gap-1 items-center" href="mailto:geral@provis.pt?subject=Pedido%20de%20Informação&body=Olá,%0A%0AGostaria%20de%20saber%20mais%20sobre%20a%20Provis." target="_blanck"><MdOutlineEmail /> geral@provis.pt</a>
+            <a className="link link-hover flex gap-1 items-center" href="mailto:geral@provis.pt?subject=Pedido%20de%20Informação&body=Olá,%0A%0AGostaria%20de%20saber%20mais%20sobre%20a%20Provis." target="_blank"><MdOutlineEmail /> geral@provis.pt</a>
             {/* <h6 className="footer-title"><FaWhatsapp /> Company</h6> */}
             {/* <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>

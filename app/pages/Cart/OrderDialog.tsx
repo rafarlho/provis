@@ -78,21 +78,24 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
         total_quantity: items.reduce((acc, item) => acc + item.Quantity, 0),
       };
 
-      await emailjs.send(
+      const res = await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         templateParams,
         import.meta.env.VITE_EMAILJS_API_KEY 
       );
 
-      setSubmitStatus('success');
-      
-      setTimeout(() => {
-        reset();
-        items.map(item => removeItem(item))
-        onClose();
-        setSubmitStatus('idle');
-      }, 2000);
+      if(res.status && res.status >= 200 && res.status <= 204) {
+
+        setSubmitStatus('success');
+        
+        setTimeout(() => {
+          reset();
+          items.map(item => removeItem(item))
+          onClose();
+          setSubmitStatus('idle');
+        }, 2000);
+      }
 
     } catch (error) {
       setSubmitStatus('error');
@@ -104,7 +107,6 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
   const handleClose = () => {
     if (!isSubmitting) {
       reset();
-      items.map(item => removeItem(item))
       setSubmitStatus('idle');
       onClose();
     }
@@ -112,6 +114,7 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
 
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    console.log(errors)
     handleSubmit(onSubmit)(e);
   };
 
@@ -176,6 +179,8 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
 
         <div>
           <div className="space-y-4">
+
+            
             <div className="w-full">
               <label className="label">
                 <span className="label-text font-semibold">
@@ -185,7 +190,7 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
               </label>
               <input
                 type="text"
-                className={`input input-bordered w-full ${errors.name ? 'input-error' : ''}`}
+                className={`input border w-full ${errors.name ? 'input-error' : ''}`}
                 {...register('name', {
                   required: 'Nome é obrigatório',
                 })}
@@ -206,7 +211,7 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
               </label>
               <input
                 type="email"
-                className={`input input-bordered w-full ${errors.email ? 'input-error' : ''}`}
+                className={`input  w-full border ${errors.email ? 'input-error' : ''}`}
                 {...register('email', {
                   required: 'Email é obrigatório',
                   pattern: {
@@ -231,7 +236,7 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
               </label>
               <input
                 type="tel"
-                className={`input input-bordered w-full ${errors.phone ? 'input-error' : ''}`}
+                className={`input border w-full ${errors.phone ? 'input-error' : ''}`}
                 {...register('phone', {
                   required: 'Contacto é obrigatório',
                   pattern: {
