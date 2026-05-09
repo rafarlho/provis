@@ -10,22 +10,24 @@ import { useCart } from '~/contexts/CartContext';
 import type { CartItem } from '~/types/CartItemModel';
 import { FaMinusCircle, FaPlusCircle } from "react-icons/fa";
 import type { Product } from '~/types/ProductModel';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import client from '~/api/client'
 export const CategoryList = ({categoryName}: {categoryName: string}) => {
 
     const cartContext = useCart();
 
     const [items , setItems] = useState<Product[]>([])
+    
     useEffect(() => {
-        switch(categoryName) {
-            case 'cleaning': setItems([...Cleaning.cleaning_products]);break;
-            case 'confectionery': setItems([...Confectionary.chocolates, ...Confectionary.candies, ...Confectionary.gums]);break;
-            case 'consumables': setItems([...Consumables.paper_and_napkins,...Consumables.disposables_and_packaging,...Consumables.garbage_bags]);break;
-            case 'drinks': setItems([...Drinks.juices_and_sodas,...Drinks.energy_drinks,...Drinks.milk,...Drinks.water, ...Drinks.beers, ...Drinks.wines_and_spirits]);break;
-            case 'snacks': setItems([...Snacks.chips, ...Snacks.bars_and_biscuits]);break;
-            case 'tobacco': setItems([...TobaccoItems.lighters,...TobaccoItems.accessories, ...TobaccoItems.filters,...TobaccoItems.rolling_papers]);break;
-            default: console.error("Categoria desconhecida ou sem correspondência:", categoryName); break;
-        }
+        // switch(categoryName) {
+        //     case 'cleaning': setItems([...Cleaning.cleaning_products]);break;
+        //     case 'confectionery': setItems([...Confectionary.chocolates, ...Confectionary.candies, ...Confectionary.gums]);break;
+        //     case 'consumables': setItems([...Consumables.paper_and_napkins,...Consumables.disposables_and_packaging,...Consumables.garbage_bags]);break;
+        //     case 'drinks': setItems([...Drinks.juices_and_sodas,...Drinks.energy_drinks,...Drinks.milk,...Drinks.water, ...Drinks.beers, ...Drinks.wines_and_spirits]);break;
+        //     case 'snacks': setItems([...Snacks.chips, ...Snacks.bars_and_biscuits]);break;
+        //     case 'tobacco': setItems([...TobaccoItems.lighters,...TobaccoItems.accessories, ...TobaccoItems.filters,...TobaccoItems.rolling_papers]);break;
+        //     default: console.error("Categoria desconhecida ou sem correspondência:", categoryName); break;
+        // }
     },[categoryName])
 
     const handleAddToCart = (item: Product, type: ItemType) => {
@@ -34,6 +36,7 @@ export const CategoryList = ({categoryName}: {categoryName: string}) => {
             ItemType: type,
             Price: type === "BOX" ? item.BoxPrice : item.UnitPrice,
             Quantity: 1,
+            ProductId: item.Id,
             Vat: item.VatRate
         } as CartItem;
         cartContext.addItem(cartItem);

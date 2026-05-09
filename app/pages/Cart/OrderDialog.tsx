@@ -5,9 +5,14 @@ import { MdClose, MdEmail, MdPerson, MdPhone } from 'react-icons/md';
 import { useCart } from '~/contexts/CartContext';
 
 interface OrderFormData {
-    name: string;
-    email: string;
-    phone: string;
+    name: string
+    email: string
+    phone: number
+    items?: OrderItem[]
+}
+type OrderItem = {
+    product_id: number
+    quantity: number
 }
 
 interface OrderDialogProps {
@@ -63,39 +68,42 @@ export default function OrderDialog({ isOpen, onClose }: OrderDialogProps) {
   };
 
   const onSubmit = async (data: OrderFormData) => {
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
+    // setIsSubmitting(true);
+    // setSubmitStatus('idle');
+    console.log(data)
+    console.log(items)
+    data.items = items.map(item => ({product_id: item.ProductId, quantity: item.Quantity}))
 
     try {
-      const templateParams = {
-        from_name: data.name,
-        from_email: data.email,
-        from_phone: data.phone,
-        order_summary: generateCartSummary(),
-        subtotal: subtotal.toFixed(2),
-        total: totalWithVat.toFixed(2),
-        items_count: items.length,
-        total_quantity: items.reduce((acc, item) => acc + item.Quantity, 0),
-      };
+      // const templateParams = {
+      //   from_name: data.name,
+      //   from_email: data.email,
+      //   from_phone: data.phone,
+      //   order_summary: generateCartSummary(),
+      //   subtotal: subtotal.toFixed(2),
+      //   total: totalWithVat.toFixed(2),
+      //   items_count: items.length,
+      //   total_quantity: items.reduce((acc, item) => acc + item.Quantity, 0),
+      // };
 
-      const res = await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        templateParams,
-        import.meta.env.VITE_EMAILJS_API_KEY 
-      );
+      // const res = await emailjs.send(
+      //   import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      //   import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      //   templateParams,
+      //   import.meta.env.VITE_EMAILJS_API_KEY 
+      // );
 
-      if(res.status && res.status >= 200 && res.status <= 204) {
+      // if(res.status && res.status >= 200 && res.status <= 204) {
 
-        setSubmitStatus('success');
+      //   setSubmitStatus('success');
         
-        setTimeout(() => {
-          reset();
-          items.map(item => removeItem(item))
-          onClose();
-          setSubmitStatus('idle');
-        }, 2000);
-      }
+      //   setTimeout(() => {
+      //     reset();
+      //     items.map(item => removeItem(item))
+      //     onClose();
+      //     setSubmitStatus('idle');
+      //   }, 2000);
+      // }
 
     } catch (error) {
       setSubmitStatus('error');

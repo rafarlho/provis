@@ -83,8 +83,8 @@ export default function MainAppRoutes() {
                     <Outlet></Outlet>
                 </div>
                 <div className="dock relative!">
-                    {navigation.map(nav => (
-                        <button className={ location.pathname === nav.redirectTo? "dock-active":''}  onClick={()=>navigate(nav.redirectTo)} >
+                    {navigation.map((nav,index) => (
+                        <button key={index} className={ location.pathname === nav.redirectTo? "dock-active":''}  onClick={()=>navigate(nav.redirectTo)} >
                             {nav.name ==="Carrinho" && cartItems.length > 0 ?
                                 <div className="avatar indicator">
                                 <span className="indicator-item badge badge-primary p-1">{cartItems.length}</span>
@@ -122,8 +122,8 @@ export default function MainAppRoutes() {
                                 <img src="/icon.png" height="90%" width='auto' className="mt-1 h-10 mx-auto is-drawer-open:hidden" />
                             </a>
                             <div className="divider m-1"></div>
-                            {navigation.map(nav => (
-                                <li className="mt-2">
+                            {navigation.map((nav,index )=> (
+                                <li className="mt-2" key={index}>
                                     <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right text-xl h-10" onClick={()=>navigate(nav.redirectTo)} >
                                         {nav.name ==="Carrinho" && cartItems.length > 0 ?
                                             <div className="avatar indicator">

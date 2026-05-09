@@ -1,3 +1,4 @@
+import { useCallback, useEffect } from "react";
 import { GiChocolateBar  } from "react-icons/gi";
 import { GiFrenchFries } from "react-icons/gi";
 import { GiBeerBottle } from "react-icons/gi";
@@ -5,9 +6,20 @@ import { GiLighter } from "react-icons/gi";
 import { GiFoldedPaper } from "react-icons/gi";
 import { GiVacuumCleaner } from "react-icons/gi";
 import { useNavigate } from "react-router";
+import client from "~/api/client";
 export const Categories = () => {
 
     const navigate = useNavigate()
+    const getCategories = useCallback( async () => {
+
+        const { data, error } = await client.from('Category').select('*')
+        console.log(data,error)
+    },[])
+
+    useEffect(()=> {
+        getCategories()
+    },[getCategories])
+
 
     const categories = [
         {
